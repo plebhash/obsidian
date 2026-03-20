@@ -11,13 +11,10 @@
             "id": "00149306f5b36c22",
             "type": "leaf",
             "state": {
-              "type": "bases",
-              "state": {
-                "file": "Untitled.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-table",
-              "title": "Untitled"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -183,7 +180,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "00149306f5b36c22",
+  "active": "2b28a89357fa0d50",
   "lastOpenFiles": [
     "2026-03-20.md",
     "Untitled.base",
