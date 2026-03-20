@@ -1,5 +1,5 @@
 {
-  "remoteURL": "ssh://git@github.com/plebhash/obsidian",
+  "remoteURL": "git@github.com:plebhash/obsidian.git",
   "gitLocation": "",
   "syncinterval": 1,
   "isSyncOnLoad": true,
