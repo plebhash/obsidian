@@ -18,8 +18,9 @@ This note is the project index for the vault.
 ```mermaid
 flowchart TD
     A["SRI Contributor Work"] --> B["SRI Production Pool"]
-    B --> C["PPLNS Project"]
-    B --> D["OpenClaw"]
+    B --> C["JD"]
+    C --> D["PPLNS"]
+    B --> E["OpenClaw"]
 ```
 
 ## How to use this note

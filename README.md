@@ -2,16 +2,14 @@
   <img src="assets/vault-logo.png" alt="Vault logo" width="360">
 </p>
 
-<h1 align="center">obsidian</h1>
+<h1 align="center">plebhash-vault</h1>
 
 <p align="center">
   <strong>A sanctuary for work ideas.</strong>
 </p>
 
 <p align="center">
-  <code>cypherpunk</code>
-  <code>psychedelic</code>
-  <code>builder's vault</code>
+  <em>Projects. Papers. Architecture. Durable ideas.</em>
 </p>
 
 <p align="center">
@@ -28,7 +26,7 @@
 
 ---
 
-This repository is plebhash's Obsidian vault for projects, papers, architecture notes, journals, and long-lived technical thinking. It is meant to help work move across multiple fronts without losing the thread between ideas.
+This repository, <code>plebhash-vault</code>, is plebhash's Obsidian vault for projects, papers, architecture notes, journals, and long-lived technical thinking. It is meant to help work move across multiple fronts without losing the thread between ideas.
 
 At the highest level, this vault exists in service of one larger mission: decentralizing and democratizing bitcoin mining.
 
@@ -38,6 +36,20 @@ The vault is especially useful as a design source:
 - for paper distillation
 - for project hierarchy and context
 - for architecture notes that should stay grounded over time
+
+## North Star
+
+The north star of this vault is simple:
+
+Make bitcoin mining more decentralized, more democratic, more legible, and more accessible.
+
+In practice, that means favoring work that helps:
+
+- reduce unnecessary centralization
+- expand miner choice and agency
+- improve open infrastructure and interoperability
+- make difficult systems easier to understand and operate
+- keep technical design tied to human and network resilience
 
 ## Start Here
 
@@ -52,8 +64,9 @@ If you are opening this repo fresh, start with:
 ```mermaid
 flowchart TD
     A["SRI Contributor Work"] --> B["SRI Production Pool"]
-    B --> C["PPLNS Project"]
-    B --> D["OpenClaw"]
+    B --> C["JD"]
+    C --> D["PPLNS"]
+    B --> E["OpenClaw"]
 ```
 
 ## Vault Principles
@@ -81,7 +94,8 @@ The numbered folders are intentional. They give the vault a stable top-level ord
 Right now, a major thread in the vault is work around the Stratum V2 Reference Implementation, especially:
 
 - the broader `SRI Production Pool` effort
-- the `PPLNS Project` as a future accounting and payout lane
+- `JD` as the lane for thinking through Job Declaration on SRI Production Pool
+- `PPLNS` as a future payout and accounting lane under that JD direction
 - `OpenClaw` as an operations and agent-support lane
 
 These are not isolated curiosities. They are part of a broader attempt to make bitcoin mining more open, intelligible, resilient, and accessible.

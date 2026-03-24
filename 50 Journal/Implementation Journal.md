@@ -8,7 +8,7 @@ tags:
 
 # Implementation Journal
 
-Use this note to capture one breadcrumb per session for the [[PPLNS Project]].
+Use this note to capture one breadcrumb per session for the [[PPLNS]].
 
 ## Prompts
 
@@ -66,4 +66,4 @@ When you sit down to work, try to write:
 
 - Revisit [[SLICE Visuals]] once the public API draft exists and align the diagrams with the actual type names.
 
-Related notes: [[PPLNS Project]] and [[PPLNS Rust Crate]]
+Related notes: [[PPLNS]] and [[PPLNS Rust Crate]]

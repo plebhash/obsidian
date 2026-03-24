@@ -36,15 +36,21 @@ It is also the note that explains why some subprojects exist even if they are no
 
 ## Subprojects
 
-### 1. [[PPLNS Project]]
+### 1. [[JD]]
 
-This is the future-facing payout and share-accounting lane.
+This is the project lane for thinking through what Job Declaration should mean for SRI Production Pool.
+
+It exists because JD is one of Sv2's defining ideas, and because a serious JD story for the production pool touches protocol behavior, product shape, and payout design all at once.
+
+### 2. [[PPLNS]]
+
+This is the future-facing payout and share-accounting lane that most naturally sits under the JD direction.
 
 The slides explicitly say that JD-style pooled mining would require share accounting and non-custodial payouts, and that this is a non-trivial scope and not the immediate priority.
 
 That makes the PPLNS crate a valid umbrella subproject here, even if it is not the first thing to ship.
 
-### 2. [[OpenClaw]]
+### 3. [[OpenClaw]]
 
 This is the operations and AI-agent lane.
 
@@ -56,9 +62,10 @@ The slides frame it as part of the support system around maintaining a mainnet V
 flowchart TD
     A["SRI Production Pool"] --> B["Mainnet solo pool today"]
     A --> C["Future pooled or JD direction"]
-    C --> D["PPLNS Project"]
-    A --> E["Ops and maintenance tooling"]
-    E --> F["OpenClaw"]
+    C --> D["JD"]
+    D --> E["PPLNS"]
+    A --> F["Ops and maintenance tooling"]
+    F --> G["OpenClaw"]
 ```
 
 ## Current interpretation
@@ -66,7 +73,8 @@ flowchart TD
 My current reading is:
 
 - the production pool is the practical operational effort
-- PPLNS is a future accounting and payout capability under that umbrella
+- JD is the feature and design umbrella for future miner-selected-template support
+- PPLNS is the payout and accounting lane under that JD direction
 - OpenClaw is an operational support capability under that umbrella
 
 ## What belongs here
@@ -84,4 +92,4 @@ My current reading is:
 
 Those should live in the subproject notes.
 
-Related notes: [[SRI Contributor Work]], [[PPLNS Project]], and [[OpenClaw]]
+Related notes: [[SRI Contributor Work]], [[JD]], [[PPLNS]], and [[OpenClaw]]

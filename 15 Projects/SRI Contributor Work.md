@@ -27,8 +27,9 @@ This note gives a high-level place to organize:
 ```mermaid
 flowchart TD
     A["SRI Contributor Work"] --> B["SRI Production Pool"]
-    B --> C["PPLNS Project"]
-    B --> D["OpenClaw"]
+    B --> C["JD"]
+    C --> D["PPLNS"]
+    B --> E["OpenClaw"]
 ```
 
 ## Active child projects
@@ -41,4 +42,4 @@ This is intentionally broad and lightweight.
 
 If another front becomes substantial, it can become another child note under this umbrella.
 
-Related notes: [[Projects]], [[SRI Production Pool]], [[PPLNS Project]], and [[OpenClaw]]
+Related notes: [[Projects]], [[SRI Production Pool]], [[JD]], [[PPLNS]], and [[OpenClaw]]

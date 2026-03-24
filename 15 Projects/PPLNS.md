@@ -6,12 +6,13 @@ tags:
   - rust
 ---
 
-# PPLNS Project
+# PPLNS
 
 This is the project hub for the PPLNS Rust crate journey.
 
 ## Parent context
 
+- [[JD]]
 - [[SRI Production Pool]]
 - [[SRI Contributor Work]]
 
@@ -64,7 +65,7 @@ Then switch to the Bonazzi or Merli paper:
 - favor easy-to-test semantics
 - separate core accounting from deployment context
 - understand how SLICE extends PPLNS without swallowing the core
-- keep this as a subproject under the broader production-pool effort
+- keep this as a subproject under JD and the broader production-pool effort
 
 ## Next smallest step
 

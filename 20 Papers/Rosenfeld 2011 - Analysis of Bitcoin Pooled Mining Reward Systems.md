@@ -11,7 +11,7 @@ year: 2011
 
 # Rosenfeld 2011 - Analysis of Bitcoin Pooled Mining Reward Systems
 
-This is the canonical reference for the [[PPLNS Project]].
+This is the canonical reference for the [[PPLNS]].
 
 ## Why this paper matters for the crate
 
@@ -148,4 +148,4 @@ For the crate, that means:
 - Do we want integer arithmetic only, or a generic numeric layer?
 - How much history do we want the state machine to retain?
 
-Related notes: [[PPLNS Project]], [[PPLNS Glossary]], and [[PPLNS Rust Crate]]
+Related notes: [[PPLNS]], [[PPLNS Glossary]], and [[PPLNS Rust Crate]]

@@ -9,7 +9,7 @@ tags:
 
 # PPLNS Rust Crate
 
-This note is the design anchor for the crate inside the [[PPLNS Project]].
+This note is the design anchor for the crate inside the [[PPLNS]].
 
 ## Design stance
 
@@ -146,4 +146,4 @@ Do we want the crate's public API to start from:
 
 My bias for learning is to start with the pure calculator, then wrap it later if needed.
 
-Related notes: [[PPLNS Project]], [[PPLNS Glossary]], [[PPLNS and SLICE Distillation]], [[Payout Crate Architecture]], and [[Implementation Journal]]
+Related notes: [[PPLNS]], [[PPLNS Glossary]], [[PPLNS and SLICE Distillation]], [[Payout Crate Architecture]], and [[Implementation Journal]]

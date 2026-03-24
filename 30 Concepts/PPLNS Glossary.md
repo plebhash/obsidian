@@ -121,4 +121,4 @@ At a minimum, a fair hopping-resistant method should preserve the expected payou
 
 In this vault, "fair" means we should always be able to explain why a share's expected value is proportional to its contribution, and when relevant, to the template value attached to that contribution.
 
-Related notes: [[PPLNS Project]], [[Rosenfeld 2011 - Analysis of Bitcoin Pooled Mining Reward Systems]], [[Bonazzi Merli 2024 - PPLNS with Job Declaration]], and [[PPLNS Rust Crate]]
+Related notes: [[PPLNS]], [[Rosenfeld 2011 - Analysis of Bitcoin Pooled Mining Reward Systems]], [[Bonazzi Merli 2024 - PPLNS with Job Declaration]], and [[PPLNS Rust Crate]]

@@ -136,4 +136,4 @@ flowchart LR
 - link back to it from architecture notes
 - refine diagrams as the crate API becomes more concrete
 
-Related notes: [[PPLNS and SLICE Distillation]], [[Payout Crate Architecture]], and [[PPLNS Project]]
+Related notes: [[PPLNS and SLICE Distillation]], [[Payout Crate Architecture]], and [[PPLNS]]

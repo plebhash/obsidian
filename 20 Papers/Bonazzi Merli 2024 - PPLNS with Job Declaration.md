@@ -16,7 +16,7 @@ companion: https://blog.dmnd.work/understanding-slice-pplns-jd/
 
 # Bonazzi Merli 2024 - PPLNS with Job Declaration
 
-This is the second canonical paper for the [[PPLNS Project]].
+This is the second canonical paper for the [[PPLNS]].
 
 It answers a question Rosenfeld did not need to answer in 2011:
 
@@ -169,4 +169,4 @@ My current reading is:
 
 That suggests a crate architecture with a core accounting layer and an optional SLICE or JD extension layer.
 
-Related notes: [[PPLNS Project]], [[Rosenfeld 2011 - Analysis of Bitcoin Pooled Mining Reward Systems]], [[PPLNS and SLICE Distillation]], [[SLICE Visuals]], and [[Payout Crate Architecture]]
+Related notes: [[PPLNS]], [[Rosenfeld 2011 - Analysis of Bitcoin Pooled Mining Reward Systems]], [[PPLNS and SLICE Distillation]], [[SLICE Visuals]], and [[Payout Crate Architecture]]
