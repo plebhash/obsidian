@@ -30,7 +30,7 @@ If you are new to Obsidian, open these notes in order:
 
 ## Current projects
 
-- [[PPLNS Project]]
+- [[SRI Contributor Work]]
 
 ## How this vault is organized
 
@@ -42,7 +42,7 @@ Right now the structure is intentionally simple:
 - design and build notes live in `40 Build/`
 - journals live in `50 Journal/`
 
-If another topic grows, we can give it its own hub note the same way PPLNS has one.
+If another topic grows, we can either give it its own top-level hub or place it under an existing umbrella project.
 
 ## Why this shape works
 

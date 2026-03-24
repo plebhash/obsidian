@@ -11,10 +11,14 @@
             "id": "00149306f5b36c22",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "10 Meta/Obsidian Slow Start.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Obsidian Slow Start"
             }
           }
         ]
@@ -180,8 +184,12 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "2b28a89357fa0d50",
+  "active": "00149306f5b36c22",
   "lastOpenFiles": [
+    "15 Projects/Projects.md",
+    "15 Projects/OpenClaw.md",
+    "15 Projects/SRI Production Pool.md",
+    "15 Projects/SRI Contributor Work.md",
     "Untitled.base",
     "Untitled 1.base",
     "20 Papers/Rosenfeld 2011 - Analysis of Bitcoin Pooled Mining Reward Systems.md",
@@ -191,7 +199,6 @@
     "30 Concepts/SLICE Visuals.md",
     "20 Papers/Bonazzi Merli 2024 - PPLNS with Job Declaration.md",
     "15 Projects/PPLNS Project.md",
-    "15 Projects/Projects.md",
     "10 Meta/Obsidian Slow Start.md",
     "README.md",
     "00 Home/Start Here.md",

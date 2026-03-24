@@ -11,11 +11,26 @@ This note is the project index for the vault.
 
 ## Active
 
-- [[PPLNS Project]]
+- [[SRI Contributor Work]]
+
+## Current hierarchy
+
+```mermaid
+flowchart TD
+    A["SRI Contributor Work"] --> B["SRI Production Pool"]
+    B --> C["PPLNS Project"]
+    B --> D["OpenClaw"]
+```
 
 ## How to use this note
 
-When a new topic becomes substantial, give it a small hub note like the PPLNS one.
+When a new topic becomes substantial, decide whether it is:
+
+- a new umbrella project
+- a child project under an existing umbrella
+- just a note, not a project
+
+Right now, the vault treats `SRI Contributor Work` as the umbrella and organizes children underneath it.
 
 A good project hub usually links to:
 
