@@ -42,13 +42,17 @@ This is the project lane for thinking through what Job Declaration should mean f
 
 It exists because JD is one of Sv2's defining ideas, and because a serious JD story for the production pool touches protocol behavior, product shape, and payout design all at once.
 
+This lane is already relatively mature. The open work here is not "should JD exist?" but how SRI Production Pool should shape and operationalize it.
+
 ### 2. [[PPLNS]]
 
-This is the future-facing payout and share-accounting lane that most naturally sits under the JD direction.
+This is the future-facing payout and share-accounting lane that supports the pool's longer-term payout story.
 
 The slides explicitly say that JD-style pooled mining would require share accounting and non-custodial payouts, and that this is a non-trivial scope and not the immediate priority.
 
-That makes the PPLNS crate a valid umbrella subproject here, even if it is not the first thing to ship.
+That makes the PPLNS crate a valid production-pool subproject, even if it is not the first thing to ship.
+
+PPLNS is best thought of as a prerequisite or enabling lane for some JD-related pooled-mining directions, not as a child project of JD itself.
 
 ### 3. [[OpenClaw]]
 
@@ -62,10 +66,11 @@ The slides frame it as part of the support system around maintaining a mainnet V
 flowchart TD
     A["SRI Production Pool"] --> B["Mainnet solo pool today"]
     A --> C["Future pooled or JD direction"]
-    C --> D["JD"]
-    D --> E["PPLNS"]
+    A --> D["JD"]
+    A --> E["PPLNS"]
     A --> F["Ops and maintenance tooling"]
     F --> G["OpenClaw"]
+    E -. "payout prerequisite" .-> D
 ```
 
 ## Current interpretation
@@ -73,8 +78,9 @@ flowchart TD
 My current reading is:
 
 - the production pool is the practical operational effort
-- JD is the feature and design umbrella for future miner-selected-template support
-- PPLNS is the payout and accounting lane under that JD direction
+- JD is a mature feature and design lane for miner-selected-template support
+- PPLNS is a parallel payout and accounting lane that can advance alongside JD
+- PPLNS is a likely prerequisite for some future JD-enabled pooled-mining paths
 - OpenClaw is an operational support capability under that umbrella
 
 ## What belongs here

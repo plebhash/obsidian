@@ -12,13 +12,23 @@ This is the project hub for the PPLNS Rust crate journey.
 
 ## Parent context
 
-- [[JD]]
 - [[SRI Production Pool]]
 - [[SRI Contributor Work]]
 
 ## Goal
 
 Understand PPLNS from first principles and turn that understanding into a small, clear Rust crate.
+
+## Relationship to JD
+
+[[JD]] is closely related, but PPLNS is not a child project of JD.
+
+The better model is:
+
+- both are subprojects of [[SRI Production Pool]]
+- PPLNS is an enabling lane for payout and accounting
+- some future JD-enabled pool directions may depend on that payout lane
+- both can still advance in parallel
 
 ## Canonical references
 
@@ -65,7 +75,7 @@ Then switch to the Bonazzi or Merli paper:
 - favor easy-to-test semantics
 - separate core accounting from deployment context
 - understand how SLICE extends PPLNS without swallowing the core
-- keep this as a subproject under JD and the broader production-pool effort
+- keep this as a production-pool subproject that can progress in parallel with JD
 
 ## Next smallest step
 

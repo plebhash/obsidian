@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "15 Projects/JD.md",
+                "file": "15 Projects/Projects.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JD"
+              "title": "Projects"
             }
           }
         ]
@@ -186,24 +186,24 @@
   },
   "active": "00149306f5b36c22",
   "lastOpenFiles": [
-    "15 Projects/Projects.md",
-    "15 Projects/JD.md",
     "15 Projects/PPLNS.md",
+    "15 Projects/Projects.md",
+    "30 Concepts/PPLNS and SLICE Distillation.md",
+    "15 Projects/SRI Production Pool.md",
+    "15 Projects/SRI Contributor Work.md",
+    "10 Meta/Obsidian Slow Start.md",
+    "15 Projects/JD.md",
     "15 Projects/OpenClaw.md",
     "assets/vault-logo.png",
     "assets",
     "output/imagegen/vault-logo-plebhash-psychedelic.png",
-    "10 Meta/Obsidian Slow Start.md",
     "output/imagegen/vault-logo-plebhash.png",
     "output/imagegen",
     "output",
-    "15 Projects/SRI Production Pool.md",
-    "15 Projects/SRI Contributor Work.md",
     "Untitled.base",
     "Untitled 1.base",
     "20 Papers/Rosenfeld 2011 - Analysis of Bitcoin Pooled Mining Reward Systems.md",
     "40 Build/Payout Crate Architecture.md",
-    "30 Concepts/PPLNS and SLICE Distillation.md",
     "30 Concepts/PPLNS Glossary.md",
     "30 Concepts/SLICE Visuals.md",
     "20 Papers/Bonazzi Merli 2024 - PPLNS with Job Declaration.md",

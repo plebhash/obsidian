@@ -26,7 +26,7 @@ How should SRI Production Pool support miner-selected templates in a way that is
 
 ## Goal
 
-Organize ideas about how SRI Production Pool should approach Job Declaration at a high level before sinking into implementation details.
+Organize ideas about how SRI Production Pool should approach Job Declaration at a high level without losing sight of the fact that SRI JD is already fairly mature.
 
 ## Scope
 
@@ -41,9 +41,15 @@ This project should hold thoughts about:
 
 ### [[PPLNS]]
 
-PPLNS sits under this lane as the payout and share-accounting project most relevant to future pooled JD support.
+PPLNS is a parallel project, not a child project of JD.
 
 If SRI Production Pool eventually supports pooled JD, then template-aware payout and accounting become part of the problem.
+
+So the relationship is:
+
+- JD and PPLNS can advance in parallel
+- PPLNS is a likely prerequisite for some future pooled-JD payout paths
+- JD is broader than payout alone
 
 ### [[OpenClaw]]
 
@@ -56,14 +62,14 @@ It is about operations and agent assistance, not the protocol or payout mechanic
 ```mermaid
 flowchart TD
     A["JD"] --> B["Pool behavior and product shape"]
-    A --> C["Template-aware payout and accounting"]
-    C --> D["PPLNS"]
+    A --> C["Protocol and product questions"]
     A --> E["Operational and rollout questions"]
+    D["PPLNS"] -. "payout prerequisite" .-> A
 ```
 
 ## Current questions
 
-- what JD mode should mean in the context of SRI Production Pool
+- how SRI Production Pool should present and operationalize JD now that the core JD story is already fairly mature
 - where JD support stops being "solo pool plus extras" and becomes a pooled-mining system
 - which parts of the JD story belong in the pool itself versus surrounding modules
 - what can remain future-facing without blocking near-term pool goals
@@ -85,6 +91,6 @@ Those belong in more specific child or sibling notes.
 
 ## Next smallest step
 
-Create the first JD design note describing what "JD on SRI Production Pool" should mean before deciding how it should be implemented.
+Create the first JD design note describing what "mature JD on SRI Production Pool" should mean in product, protocol, and rollout terms.
 
 Related notes: [[SRI Production Pool]], [[PPLNS]], and [[OpenClaw]]

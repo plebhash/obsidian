@@ -65,8 +65,9 @@ If you are opening this repo fresh, start with:
 flowchart TD
     A["SRI Contributor Work"] --> B["SRI Production Pool"]
     B --> C["JD"]
-    C --> D["PPLNS"]
+    B --> D["PPLNS"]
     B --> E["OpenClaw"]
+    D -. "payout prerequisite" .-> C
 ```
 
 ## Vault Principles
@@ -94,8 +95,8 @@ The numbered folders are intentional. They give the vault a stable top-level ord
 Right now, a major thread in the vault is work around the Stratum V2 Reference Implementation, especially:
 
 - the broader `SRI Production Pool` effort
-- `JD` as the lane for thinking through Job Declaration on SRI Production Pool
-- `PPLNS` as a future payout and accounting lane under that JD direction
+- `JD` as a mature lane for thinking through how SRI Production Pool does Job Declaration
+- `PPLNS` as a parallel payout and accounting lane that can advance alongside JD
 - `OpenClaw` as an operations and agent-support lane
 
 These are not isolated curiosities. They are part of a broader attempt to make bitcoin mining more open, intelligible, resilient, and accessible.

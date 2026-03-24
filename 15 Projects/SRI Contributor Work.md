@@ -28,8 +28,9 @@ This note gives a high-level place to organize:
 flowchart TD
     A["SRI Contributor Work"] --> B["SRI Production Pool"]
     B --> C["JD"]
-    C --> D["PPLNS"]
+    B --> D["PPLNS"]
     B --> E["OpenClaw"]
+    D -. "payout prerequisite" .-> C
 ```
 
 ## Active child projects

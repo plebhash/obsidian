@@ -19,8 +19,9 @@ This note is the project index for the vault.
 flowchart TD
     A["SRI Contributor Work"] --> B["SRI Production Pool"]
     B --> C["JD"]
-    C --> D["PPLNS"]
+    B --> D["PPLNS"]
     B --> E["OpenClaw"]
+    D -. "payout prerequisite" .-> C
 ```
 
 ## How to use this note
