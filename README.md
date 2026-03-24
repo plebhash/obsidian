@@ -18,9 +18,19 @@
   Long-lived technical thinking for projects, papers, architecture, and strange useful ideas.
 </p>
 
+<p align="center">
+  Built and tended by <strong>plebhash</strong>.
+</p>
+
+<p align="center">
+  Mission: <strong>decentralize and democratize bitcoin mining</strong>.
+</p>
+
 ---
 
-This repository is my Obsidian vault for projects, papers, architecture notes, journals, and long-lived technical thinking. It is meant to help me work across multiple fronts without losing the thread between ideas.
+This repository is plebhash's Obsidian vault for projects, papers, architecture notes, journals, and long-lived technical thinking. It is meant to help work move across multiple fronts without losing the thread between ideas.
+
+At the highest level, this vault exists in service of one larger mission: decentralizing and democratizing bitcoin mining.
 
 The vault is especially useful as a design source:
 
@@ -74,6 +84,8 @@ Right now, a major thread in the vault is work around the Stratum V2 Reference I
 - the `PPLNS Project` as a future accounting and payout lane
 - `OpenClaw` as an operations and agent-support lane
 
+These are not isolated curiosities. They are part of a broader attempt to make bitcoin mining more open, intelligible, resilient, and accessible.
+
 ## Why This Repo Exists
 
 This is not just a place to store notes.
@@ -85,6 +97,8 @@ It is meant to be:
 - a project map
 - a paper-reading companion
 - a durable home for ideas that should not disappear into chats, scratchpads, or half-remembered terminal sessions
+
+It is also a place where technical work stays tied to purpose.
 
 ## Working Style
 
