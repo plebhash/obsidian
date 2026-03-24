@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10 Meta/Obsidian Slow Start.md",
+                "file": "15 Projects/OpenClaw.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian Slow Start"
+              "title": "OpenClaw"
             }
           }
         ]
@@ -186,6 +186,13 @@
   },
   "active": "00149306f5b36c22",
   "lastOpenFiles": [
+    "assets/vault-logo.png",
+    "assets",
+    "output/imagegen/vault-logo-plebhash-psychedelic.png",
+    "10 Meta/Obsidian Slow Start.md",
+    "output/imagegen/vault-logo-plebhash.png",
+    "output/imagegen",
+    "output",
     "15 Projects/Projects.md",
     "15 Projects/OpenClaw.md",
     "15 Projects/SRI Production Pool.md",
@@ -199,7 +206,6 @@
     "30 Concepts/SLICE Visuals.md",
     "20 Papers/Bonazzi Merli 2024 - PPLNS with Job Declaration.md",
     "15 Projects/PPLNS Project.md",
-    "10 Meta/Obsidian Slow Start.md",
     "README.md",
     "00 Home/Start Here.md",
     "50 Journal/Implementation Journal.md",
@@ -209,8 +215,6 @@
     "40 Build",
     "30 Concepts",
     "20 Papers",
-    "10 Meta",
-    "00 Home",
     "tedt.md",
     "2026-03-20.md",
     "test.md",

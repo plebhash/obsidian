@@ -1,6 +1,24 @@
-# obsidian
+<p align="center">
+  <img src="assets/vault-logo.png" alt="Vault logo" width="360">
+</p>
 
-A sanctuary for work ideas.
+<h1 align="center">obsidian</h1>
+
+<p align="center">
+  <strong>A sanctuary for work ideas.</strong>
+</p>
+
+<p align="center">
+  <code>cypherpunk</code>
+  <code>psychedelic</code>
+  <code>builder's vault</code>
+</p>
+
+<p align="center">
+  Long-lived technical thinking for projects, papers, architecture, and strange useful ideas.
+</p>
+
+---
 
 This repository is my Obsidian vault for projects, papers, architecture notes, journals, and long-lived technical thinking. It is meant to help me work across multiple fronts without losing the thread between ideas.
 
