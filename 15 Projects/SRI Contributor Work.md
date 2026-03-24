@@ -2,9 +2,9 @@
 type: project
 status: active
 tags:
-  - sv2
   - sri
   - umbrella
+  - sv2
 ---
 
 # SRI Contributor Work
@@ -37,10 +37,22 @@ flowchart TD
 
 - [[SRI Production Pool]]
 
+## Current priorities
+
+For time-sensitive coordination and release work, use:
+
+- [[SRI Current Priorities]]
+
+Current emphasis:
+
+- planning patch release `0.3.1`
+- ongoing `v31rc0` branch work in `sv2-apps`
+- `sv2-ui` release coordination
+
 ## Notes on scope
 
 This is intentionally broad and lightweight.
 
 If another front becomes substantial, it can become another child note under this umbrella.
 
-Related notes: [[Projects]], [[SRI Production Pool]], [[JD]], [[PPLNS]], and [[OpenClaw]]
+Related notes: [[Projects]], [[SRI Current Priorities]], [[SRI Production Pool]], [[JD]], [[PPLNS]], and [[OpenClaw]]
