@@ -45,9 +45,9 @@ For time-sensitive coordination and release work, use:
 
 Current emphasis:
 
-- planning patch release `0.3.1`
-- ongoing `v31rc0` branch work in `sv2-apps`
-- `sv2-ui` release coordination
+- `sv2-apps` `v0.3.1` is shipped
+- `v0.3.2` is now the active release cycle
+- the project board is the main coordination surface
 
 ## Notes on scope
 

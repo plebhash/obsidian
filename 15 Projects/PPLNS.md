@@ -30,6 +30,19 @@ The better model is:
 - some future JD-enabled pool directions may depend on that payout lane
 - both can still advance in parallel
 
+## Important system constraint
+
+For future SRI pooled JD work, the payout problem is constrained by the fact that JD standardizes one designated pool payout output rather than a native multi-recipient pool payout layout.
+
+That means a non-custodial community payout story will likely need something more deliberate than a naive direct coinbase split.
+
+Current working conclusion:
+
+- if SRI wants native non-custodial payout support in the JD pooled-mining path, that will require an Sv2 protocol extension
+- the PPLNS crate should therefore avoid assuming that protocol-native community settlement already exists
+
+See [[JD Payout Constraints]].
+
 ## Canonical references
 
 - [[Rosenfeld 2011 - Analysis of Bitcoin Pooled Mining Reward Systems]]

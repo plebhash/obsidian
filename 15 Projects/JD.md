@@ -37,6 +37,19 @@ This project should hold thoughts about:
 - what product, protocol, and operational constraints matter
 - what dependencies JD creates for payout and accounting
 
+## Current design constraint
+
+The Sv2 JD spec standardizes one designated pool payout output even though the coinbase may contain additional outputs.
+
+That matters because a future non-custodial community payout story cannot be hand-waved as "just pay many recipients directly from the pool coinbase layout."
+
+Current working conclusion:
+
+- native non-custodial community payout support inside the JD pooled-mining flow will require an Sv2 protocol extension
+- otherwise SRI will need some settlement mechanism outside the immediate JD payout rail
+
+See [[JD Payout Constraints]].
+
 ## Relationship to other projects
 
 ### [[PPLNS]]

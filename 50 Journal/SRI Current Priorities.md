@@ -11,39 +11,45 @@ tags:
 
 This note tracks near-term things plebhash needs to keep moving on SRI work.
 
+## 2026-03-28 update
+
+## Recently completed
+
+- `sv2-apps` `v0.3.1` has been released:
+  - [sv2-apps v0.3.1 release](https://github.com/stratum-mining/sv2-apps/releases/tag/v0.3.1)
+
 ## Current release cycle
 
-- We are in the middle of planning patch release `0.3.1`.
+- Active focus has moved to patch release `v0.3.2`.
+- Current coordination surface:
+  - [stratum-mining project board #17](https://github.com/orgs/stratum-mining/projects/17)
 
 ## Ongoing work
 
 ### 1. `sv2-apps`
 
-- Ongoing work is happening around the `v31rc0` branch.
+- `v0.3.2` is now the active release target.
+- The project board is the main place to keep scope and progress visible.
 
-### 2. `sv2-ui`
+### 2. Release coordination
 
-- The `sv2-ui` release is part of the current coordination picture.
-- Relevant issue: [sv2-ui #31](https://github.com/stratum-mining/sv2-ui/issues/31#issue-4126491176)
-- Current takeaway from gitgab19 discord chat context:
-  - after the next `sv2-apps` patch release, `sv2-ui` should use stable Docker image tags
-  - if this lands after Thursday, plebhash may need to do it directly
-  - the release should come from a `release/v0.1.0` branch, similar to `sv2-apps`
+- `v0.3.1` is no longer the planning target; it is the latest completed milestone.
+- Current attention should move from "shipping `v0.3.1`" to "keeping `v0.3.2` scoped, tracked, and unblocked."
 
 ## Current checklist
 
-- [ ] Keep patch release `0.3.1` planning visible and explicit.
-- [ ] Keep track of the `v31rc0` branch work in `sv2-apps`.
-- [ ] Follow through on the `sv2-ui` release dependency on stable Docker image tags after the `sv2-apps` patch release.
+- [ ] Keep the `v0.3.2` board visible and current.
+- [ ] Identify what is definitely in scope for `v0.3.2`.
+- [ ] Track blockers, dependencies, and ownership directly from the board.
 
 ## Open coordination questions
 
-- What is definitely in scope for `0.3.1`?
-- What still belongs only to `v31rc0` and not to the patch release?
-- What concrete action will plebhash need to take for the `sv2-ui` release path?
+- What is definitely in scope for `v0.3.2`?
+- Which items on the board are must-land versus nice-to-have?
+- What dependencies from the `v0.3.1` cycle still spill into `v0.3.2`?
 
 ## Next smallest step
 
-- Turn the current checklist into a release-oriented action list once the `0.3.1` scope is clearer.
+- Review the `v0.3.2` board and turn it into a short release-oriented action list.
 
 Related notes: [[SRI Contributor Work]] and [[SRI Production Pool]]
